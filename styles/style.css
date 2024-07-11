@@ -15,7 +15,7 @@
 /* Background img */
 #main_sec{
     background-image: url(../assets/Hero-bg.png);
-    height:362px;
+    height:348px;
     text-align: center;
 }
 
@@ -61,7 +61,7 @@
     width: 695px;
     height: 710px;
     margin: 0 auto;
-    margin-top: 45px;
+    margin-top: 25px;
     background-color: rgba(248, 248, 248, 0.91);
     border-radius: 4%;
 
