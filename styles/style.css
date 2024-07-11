@@ -10,7 +10,7 @@
 /* Background img */
 #main_sec{
     background-image: url(../assets/Hero-bg.png);
-    height:398px;
+    height:362px;
     text-align: center;
 }
 
@@ -53,11 +53,42 @@
 /* main-content */
 
 .sect_1{
-
-}
-.Outer_div{
+    width: 695px;
+    height: 850px;
+    margin: 0 auto;
+    margin-top: 45px;
+    background-color: rgba(248, 248, 248, 0.91);
 
 }
 .inner_div{
+    padding: 49px 59px;
+    max-width: 577px;
+    max-height: 752px;
+    text-align: center;
+}
+.div_hd{
+    max-width: 520px;
+    max-height: 69px;
+}
+.class_1{
+    display: flex;
+    justify-content: space-between;
+}
+.cls1_img{
+    width: 167px;
+    height: 146.4px;
+}
+.cls1_content{
+    width: 290px;
+    height: 134px;
+}
+.sec1_div1_h3{
+    font-family: "Azeret Mono", monospace;
+    font-weight: 700;
+    font-size: 20;
+    color: #0D1321;
+    opacity: 0.7;
+}
+.sec1_div1_p{
 
 }
