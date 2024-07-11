@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Azeret Mono", monospace;
+    margin: 0;
+    padding: 0;
+}
 .nav{
     display: flex;
     /* justify-content:space-around ; */
@@ -37,7 +42,7 @@
 .hd_p{
     font-family: "Azeret Mono", monospace;
     font-weight: 400;
-    font-size: small;
+    font-size: smaller;
     color: #0D1321;
     opacity: 0.7;
 }
@@ -54,23 +59,39 @@
 
 .sect_1{
     width: 695px;
-    height: 850px;
+    height: 710px;
     margin: 0 auto;
     margin-top: 45px;
     background-color: rgba(248, 248, 248, 0.91);
+    border-radius: 4%;
 
 }
 .inner_div{
     padding: 49px 59px;
-    max-width: 577px;
-    max-height: 752px;
+    width: 577px;
+    height: 632px;
     text-align: center;
 }
 .div_hd{
+    /* padding-top: 49px; */
     max-width: 520px;
     max-height: 69px;
 }
+.div_hd_h3{
+    font-family: "Azeret Mono", monospace;
+    font-weight: 800;
+    font-size: 32;
+    color: #0D1321;
+}
+.div_hd_p{
+    font-family: "Azeret Mono", monospace;
+    font-weight: 400;
+    font-size: smaller;
+    color: #0D1321;
+    opacity: 0.7;
+}
 .class_1{
+    padding-top: 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -91,4 +112,169 @@
 }
 .sec1_div1_p{
 
+}
+.class_2{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.class_3{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sect_2{
+    width: 695px;
+    height: 473px;
+    margin: 0 auto;
+    margin-top: 61px;
+    /* background-color: rgba(248, 248, 248, 0.91); */
+    border-radius: 4%;
+
+}
+.s2_div1{
+    text-align: center;
+}
+.s2_h3{
+    font-family: "Azeret Mono", monospace;
+    font-weight: 800;
+    font-size: 32;
+    color: #0D1321;
+}
+.s2_p{
+    font-family: "Azeret Mono", monospace;
+    font-weight: 400;
+    font-size: smaller;
+    color: #0D1321;
+    opacity: 0.7;
+}
+.s2_div2{
+    margin: 0 auto;
+    margin-top: 32px;
+    padding: 13px;
+    /* border: 2px solid rgba(216, 9, 9, 0.91); */
+    
+    border: 2px solid rgba(244, 241, 241, 0.91);;
+    
+    /* justify-content: center; */
+}
+
+.sect_3{
+    width: 695px;
+    height: 281px;
+    margin: 0 auto;
+    margin-top: 58px;
+    /* background-color: rgba(248, 248, 248, 0.91); */
+    border-radius: 4%;
+
+}
+.s3_div2{
+    height: 188px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 222px;
+    padding: 19px;
+    margin: 5px;
+    
+}
+
+#c1{
+    background-color: rgb(244, 229, 237);
+    ;
+}
+#c2{
+    background-color: rgb(234, 234, 247);
+}
+#c3{
+    background-color: rgb(248, 213, 203);
+}
+
+.sec3_div2_h3{
+    font-family: "Azeret Mono", monospace;
+    font-weight: 800;
+    font-size: small;
+    color: #0D1321;
+}
+.sec3_div2_p{
+    font-family: "Azeret Mono", monospace;
+    font-weight: 400;
+    font-size: x-small;
+    color: #0D1321;
+    opacity: 0.7;
+}
+.s3_a{
+    color: black;
+    font-size: x-small;
+
+}
+
+.sect_4{
+    height: 191px;
+    width: 695px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(../assets/handshake.jpg);;
+
+    background-size: cover;
+}
+.s4_h3{
+    font-family: "Azeret Mono", monospace;
+    /* margin-top: 39px; */
+    padding-top: 39px;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+}
+.s4_p{
+    width: 369px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Azeret Mono", monospace;
+    font-weight: 400;
+    font-size: x-small;
+    color: #fff;
+    opacity: 0.7;
+}
+.input_text{
+    width: 355px;
+    height: 35px;
+    margin-top: 15px;
+    border-radius: 6px;
+    font-size: smaller;
+    font-weight: 400;
+    color: 0D1321;
+    /* opacity: 0.4; */
+    padding: auto;d
+}
+.input_submit{
+    height: 35px;
+    border-radius: 6px;
+    font-font-size: small;
+    font-weight: 500;
+}
+
+.footer{
+    margin-top: 45px;
+    height: 56.5px;
+    background-color: rgba(248, 248, 248, 0.91);
+}
+.f_content{
+    width: 695px;
+    height: 14px;
+    margin: 0 auto;
+    /* display: inline; */
+    display: flex;
+    justify-content: space-between;
+}
+#f_h3{
+    font-size: small;
+    font-weight: 500;
+    position: left;
+    padding-top: 25px;
+}
+.f_icon{
+    padding-top: 18px;
 }
